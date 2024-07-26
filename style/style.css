@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+}
+
+body{
+    background: linear-gradient(#c9fbf7, #175b7b);
+    height: 100vh;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 5%;
+    height: 5%;
+}
+
+.container{
+    width: 50%;
+    height: 73vh;
+    border: 2px solid rgba(6, 185, 255, 0.429);
+    background-color: #c1f8f8;
+    margin: auto;
+    padding: 5px;
+    overflow-y: auto;
+    border-radius: 14px;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color:rgba(249, 255, 224, 0.741);
+    width: 24%;
+    padding: 6px;
+    margin: 8px 4px;
+    border: 2px solid rgb(255, 210, 210);
+    border-radius: 5px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.mid{
+    float: left;
+    clear: both;
+    margin-left: 40%;
+    text-align: center;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    width: 50%;
+}
+
+.btn{
+    padding: 1%;
+    cursor: pointer;
+    width: 15%;
+    margin-left: 4%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0 106 172);
+    border: 2px solid rgb(82 122 147);
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    background-color: rgba(16, 139, 215, 0.592);
+}
+
+#msgInp{
+    width: 75%;
+    padding: 2%;
+    border: 2px solid  rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+}
+
+
+@media (max-width: 975px) {
+    .container{
+        width: 60%;
+    }
+
+    #send-container{
+        width: 60%;
+    }
+
+    .message{
+        width: 34%;
+    }
+
+    .mid{
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container{
+        width: 80%;
+    }
+
+    #send-container{
+        width: 80%;
+    }
+
+    .logo{
+        width: 8%;
+        height: 8%;
+    }
+
+    .btn{
+        display: block;
+        margin: 12px;
+        margin-left: 40%
+    }
+}
+
+@media (max-width: 450px) {
+    *{
+        font-size: 0.8rem;
+    }
+
+    body{
+        height: 110vh;
+    }
+
+    .container{
+        width: 90%;
+        height: 80vh;
+    }
+
+    #send-container{
+        width: 100%;
+    }
+
+    .logo{
+        width: 10%;
+        height: 10%;
+    }
+
+    .btn{
+        display: block;
+        margin: 12px;
+        margin-left: 40%
+    }
+}
